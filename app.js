@@ -32,7 +32,7 @@ navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', 
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape') closeNavigation();
 });
-window.matchMedia('(min-width: 851px)').addEventListener('change', closeNavigation);
+window.matchMedia('(min-width: 1051px)').addEventListener('change', closeNavigation);
 
 function resetContact() {
   contactForm.reset();
